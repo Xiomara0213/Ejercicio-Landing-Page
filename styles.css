@@ -7,7 +7,7 @@
     --color-black-grey: #3c3d3c;
     --font-family-lato: 'Lato';
   
-  
+    
     --background-green: #E2F1E8;
   }
 
@@ -18,8 +18,9 @@
   }
  
   .navbar_header {
-    height: 83px;
+    height: 100px;
     width: 100%;
+
     padding: 0 60px;
     position: fixed;
     z-index: 50;
@@ -28,9 +29,9 @@
 
   .navbar_header .navbar_nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--color-black);
     font-family: var(--font-family-lato);
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .navbar_header .navbar_nav a .navbar_logo {
@@ -46,13 +47,13 @@
     align-items: center;
   }
 
-  .navbar_header .navbar_container-links {
+  .navbar_header .navbar_links {
     height: fit-content;
     display: flex;
     gap: 40px;  
   }
   
-  .navbar_header .navbar_container-links a {
+  .navbar_header .navbar_links a {
     text-decoration: none;
     color: var(--color-black);
     font-family: var(--font-family-lato);
