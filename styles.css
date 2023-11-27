@@ -1,0 +1,60 @@
+@import url('https://fonts.google.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #064749;
+  
+    --color-black: #181A18;
+    --color-black-grey: #3c3d3c;
+    --font-family-lato: 'Lato';
+  
+  
+    --background-green: #E2F1E8;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ 
+  .navbar_header {
+    height: 83px;
+    width: 100%;
+    padding: 0 60px;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+  }
+
+  .navbar_header .navbar_nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: var(--font-family-lato);
+    font-size: 18px;
+  }
+
+  .navbar_header .navbar_nav a .navbar_logo {
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  .navbar_header .navbar_nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar_header .navbar_container-links {
+    height: fit-content;
+    display: flex;
+    gap: 40px;  
+  }
+  
+  .navbar_header .navbar_container-links a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: var(--font-family-lato);
+    font-size: 18px;
+  }
