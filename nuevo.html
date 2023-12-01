@@ -8,38 +8,38 @@
 </head>
 <body>
     <header class="head">
-        <div class="head_container">
-            <nav class="head_menu">
-                <div>
-                    <a href="#">
-                        <img src="./img2/logo.png" alt="logo Uniq Luxuri">
-                    </a>
-                </div>
-                <div>
-                    <a href="#">LOG IN</a>
-                    <a href="#">SIGN UP</a>
-                </div>
-                <div>
-                    <a href="#">ESP</a>
-                    <a href="#">EN</a>
-                </div>
-                 <a href="#">
-                    <i class="fa-duotone fa-bars"></i>
-                 </a>   
-                </div>
-            </nav>
-        </div>
+        <nav class="head_menu">
+            <div class="head_logo">
+                <a href="#">
+                    <img src="./img2/logo.png" alt="logo Uniq Luxuri">
+                </a>
+            </div>
+            <div class="head_boton">
+                <a href="#" class="head_boton_1">LOG IN</a>
+                <a href="#" class="head_boton_2">SIGN UP</a>
+            </div>
+            <div class="head_idioma">
+                <a href="#" class="head_idioma_1">ESP</a>
+                <a href="#" class="head_idioma_2">EN</a>
+            </div>
+            <div class="head_menu">
+                <button>
+                    <span class="linea"></span>
+                    <span class="linea"></span>
+                    <span class="linea"></span>
+                </button>
+            </div>
+        </nav>
     </header>
 
-    <main>
-        <div>
-            <form action="#">
-                    <input type="text" placeholder="busqueda">
+    <main class="nav_fondo">
+        <div class="nav_fondo_busca">
+            <form class="nav_fondo_boton" action="#">
+                    <input type="search" placeholder="busqueda">
                     <input type="submit" value="ok">
             </form>
         </div>
-        <div>
-            <img src="./img2/Fondo.png" alt="Imagen de Fondo">
+        <div class="nav_fondo_texto">
                 <div>
                     <span>Luxury</span>
                 </div>
@@ -47,7 +47,7 @@
                     <span>REAL-ESTATE</span>
                 </div> 
         </div>
-        <div>
+        <div class="nav_fondo_propiedades">
             <form action="#">
                 <input type="text" placeholder="View all Properties">
                 <input type="submit" value="ok">
@@ -125,11 +125,15 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <div>
             <table>
                 <tbody>
-                    <tr>
+                    <thead>
                         <h4>Luxury properties</h4>
                         <h1>Developments</h1>
+                    </thead>
+                    <tr>
                         <td>
                             <img src="./img2/edificio1.jpg" alt="edificio1">
                             <h6>The Surf Row</h6>
@@ -192,6 +196,12 @@
                             </form>
                         </td>
                     </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tbody>
                     <tr>
                         <div>
                             <td>
@@ -201,9 +211,11 @@
                         </div>
                         <div>
                             <td>
-                                <span>Name:</span>
-                                <input type="text" placeholder="Ex.name@mail.com">
-                                <input type="button" value="submit">
+                                <form action="#">
+                                    <label for="nombre">Name:</label> </label>
+                                    <input id="nombre" type="text" placeholder="Ex.name@mail.com">
+                                </form>
+                                <input type="submit" value="Submit">
                             </td>
                         </div>
                     </tr>
