@@ -109,3 +109,36 @@
     -o-border-radius: 0 60px 60px 0;
   }
   
+
+  .head_nav_vertical {
+    position: absolute;
+    z-index: 999;
+    left: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.head_nav_vertical p {
+    font-family: var(--font-family-lato);
+    font-weight: 800;
+    color: grey;
+    line-height: 1px;
+    transform: rotate(90deg);
+}
+
+.vertical {
+    border-left: 1px solid black ;
+    height: 50px;
+    margin-top: 10px;
+    transform: rotate(90deg);
+}
+
+.social {
+    height: 18px;
+    width: 18px;
+    transform: rotate(90deg);
+}
