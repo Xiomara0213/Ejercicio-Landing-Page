@@ -121,9 +121,13 @@
 }
 
 .head_nav_boton1 {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    
     background-image: url(./img2/busca.png);
     background-color: white;
-
+    height: 100%;
+    position: relative;
 
     font-family: var(--font-family-lato);
     font-style: normal;
