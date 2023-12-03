@@ -240,6 +240,14 @@
     margin-left: -260px;
     transition: none 0s ease 0s;
 }
+.casa1 {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: initial;
+    align-items: end;
+    height: 100%;
+}
 #casa3 {
     background-image: url(./img2/casa3.png);
     text-decoration: none;
@@ -252,15 +260,7 @@
     background-image: url(./img2/casa1.png);
     text-decoration: none;
 }
-.casa {
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    justify-content: initial;
-    align-items: end;
-    height: 100%;
-}
-.content_casa {
+.content_casa1 {
     display: grid;
     grid-template-c: 1fr auto;
     background-color: rgba( 0, 0, 0, 30%);
@@ -273,7 +273,7 @@ span {
     color: white;
     padding: 0 5% 0 5%;
 }
-.superior {
+.superior1 {
     font-family: var(--font-family-lato);
     font-style: normal;
     font-weight: 400;
@@ -287,7 +287,7 @@ span {
 
     padding-top: 3%;
 }
-.inferior {
+.inferior1 {
     font-family: var(--font-family-lato);
     font-style: normal;
     font-weight: 500;
@@ -335,18 +335,19 @@ span {
 
     font-family: var(--font-family-lato);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     color: grey;
 }
 .properties {
     font-family: var(--font-family-lato);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     border: 1px solid black;
     color: black;
     border-radius: 60px;
     cursor: pointer;
     align-items: center;
+    padding: 5px;
 }
 .siguiente {
     display: flex;
@@ -355,9 +356,115 @@ span {
 
     font-family: var(--font-family-lato);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     color: grey;
+}
+.home_container2 {
+    margin-bottom: 7%;
 }
 .home_texto2 {
     margin: 0 10%;
 }
+.home_texto2_linea1 {
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-weight: 400;
+    color: orange;
+}
+.home_texto2_linea2 {
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+}
+.home_texto2_linea3 {
+    font-family: var(--font-family-lato);
+    color: black;
+    font-style: normal;
+    font-weight: 330;
+    margin-left: 20%;
+    text-align: justify;
+}
+.home_texto2_boton {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.prev {
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-weight: 300;
+    color: grey;
+}
+.properties2 {
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-weight: 300;
+    border: 1px solid black;
+    color: black;
+    border-radius: 60px;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px;
+}
+.sig {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-weight: 300;
+    color: grey;
+}
+.home_container2_gallery {
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+}
+.gallery_2 {
+    display: flex;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+#casa4 {
+    background-image: url(./img2/casa4.png);
+    text-decoration: none;
+}
+#casa5 {
+    background-image: url(./img2/casa5.png);
+    text-decoration: none;
+}
+#casa6 {
+    background-image: url(./img2/casa6.png);
+    text-decoration: none;
+}
+.casa2 {
+    margin-right: 10px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: initial;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    align-items: end;
+}
+.content_casa2 {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    width: 100%;
+    height: 100%;
+    align-items: end;
+    background-color: rgba( 0, 0, 0, 30%);
+}
+.superior2 {
+    
+}
+.inferior2 {}
