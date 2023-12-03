@@ -231,7 +231,7 @@
     justify-content: initial;
     overflow: hidden;
 }
-.home_container1_gallery1 {
+.home_container1_gallery {
     display: flex;
     height: 100%;
 
@@ -301,8 +301,6 @@ span {
 
     padding-bottom: 3%;
 }
-
-
 .home_texto1 {
     margin: 0 10%;
 }
