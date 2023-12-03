@@ -14,14 +14,15 @@
     background-image: url(./img2/fondo_imagen1.png);
     background-position: center;
     background-size: cover;
-    margin: 0px;
+    margin: 0;
     width: 1080px;
     height: 1920px;
+    background-repeat: no-repeat;
 
 }
 
 .head_menu {
-    background-color: rgb( 0 0 0 / 50%);
+    background-color: rgb( 0 0 0 / 70%);
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto 1fr auto auto;
@@ -98,7 +99,7 @@
 }
 
 .head_nav {
-    background-color: rgb( 0 0 0 / 70%);
+    background-color: rgb( 0 0 0 / 60%);
     padding: 0 5%;
     display: grid;
     grid-template-columns: 1fr;
@@ -212,6 +213,77 @@
     margin-left: 2px;
 }
 
+
 .home {
     margin: 5% 0;
+}
+.home_container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5%;
+}
+.home_container1_gallery1 {
+    display: flex;
+    height: 100%;
+    align-items: end;
+    overflow: hidden;
+
+    transform: scaleX(1);
+    -webkit-transition: all 0.5s ease;
+    scroll-behavior: smooth;
+
+    margin-left: -260px;
+}
+.casa {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: initial;
+    align-items: end;
+    height: 100%;
+}
+#casa3 {
+    background-image: url(./img2/casa3.png);
+    text-decoration: none;
+}
+div {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-color: rgba( 0, 0, 0, 30%);
+    align-items: end;
+    width: 100%;
+    height: 100%; 
+}
+.content_casa {
+    display: block;
+    color: white;
+    padding: 0 5% 0 5%;
+}
+.superior {
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-transition: all 0.5s ease;
+
+    padding-top: 3%;
+}
+.inferior {
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-transition: all 0.5s ease;
+
+    padding-bottom: 3%;
 }
