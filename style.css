@@ -2,10 +2,13 @@
 :root{
     --font-family-lato: 'Lato';
 }
-* {
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden
 }
 .head {
     display: grid;
@@ -18,7 +21,6 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-
 }
 
 .head_menu {
@@ -224,7 +226,7 @@
 }
 .home_container1_gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     background-color: white;
     align-items: end;
     width: 100%;
@@ -371,7 +373,7 @@
 }
 .home_container2_gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     background-color: white;
     align-items: end;
     width: 100%;
@@ -385,6 +387,7 @@
     justify-content: initial;
     align-items: end;
     height: 100%;
+    overflow: hidden;
 }
 #casa4 {
     background-image: url(./img2/casa4.png);
@@ -440,36 +443,36 @@
     font-weight: 400;
     font-size: 30px;
     color: orange;
-
-    text-align: start;
-    margin-left: 5%;
+    text-align: center;
 }
 .home_texto3_linea2 {
     font-family: var(--font-family-lato);
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 60px;
     color: black;
-    margin-bottom: 5%;
-
-    text-align: start;
-    margin-left: 5%;
+    text-align: center;
 }
 .home_container3_gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 5% 0 5%;
-    column-gap: 25px;
-    row-gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5%;
+    column-gap: 10px;
+    row-gap: 10px;
+    
 }
 .content_edificio {
     text-decoration: none;
+    column-width: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 .content_text3 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     background: white;
-    padding: 1px 0 1px 2px;
+    align-items: end;
+    text-align:start;
 }
 .superior3 {
     font-family: var(--font-family-lato);
@@ -479,19 +482,17 @@
     line-height: 20px;
     color: grey;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
 }
 .inferior3 {
     font-family: var(--font-family-lato);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 30px;
     line-height: 25px;
     color: black;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
 }
 .home_container4 {
     display: grid;
@@ -500,8 +501,8 @@
     gap: 30px;
 }
 .home_container4_gallery {
-    height: 730px;
-    width: 730px;
+    height: auto;
+    width: auto;
     background-image: url(./img2/fondo_sala.png);
     
     display: flex;
