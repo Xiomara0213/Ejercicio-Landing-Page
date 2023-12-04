@@ -128,6 +128,7 @@ body {
     font-size: 40px;
     border-radius: 0 20px 20px 0;
     background-color: transparent;
+    text-align: center;
 }
 .lupa {
     width: 30px;
@@ -170,6 +171,7 @@ body {
     font-size: 40px;
     border: 1px solid white;
     border-radius: 20px;
+    text-align: top;
 }
 .flecha {
     width: 30px;
@@ -182,6 +184,7 @@ body {
     margin-left: 60px;
     margin-right: 60px;
     font-size: 20px;
+    text-align:center;
 }
 .head_nav_vertical {
     position: absolute;
@@ -260,7 +263,7 @@ body {
 }
 .content_text1 {
     display: block;
-    color: black;
+    color: white;
 }
 .superior1 {
     font-family: var(--font-family-lato);
@@ -408,7 +411,7 @@ body {
 }
 .content_text2 {
     display: block;
-    color: black;
+    color: white;
 }
 .superior2 {
     font-family: var(--font-family-lato);
@@ -459,86 +462,77 @@ body {
     margin: 5%;
     column-gap: 10px;
     row-gap: 10px;
-    
 }
 .content_edificio {
     text-decoration: none;
-    column-width: 20px;
     overflow: hidden;
-    box-sizing: border-box;
 }
 .content_text3 {
     display: grid;
-    grid-template-rows: 1fr 1fr;
     background: white;
-    align-items: end;
-    text-align:start;
+    padding: 5px 0 5px 5px;
 }
 .superior3 {
     font-family: var(--font-family-lato);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
     line-height: 20px;
     color: grey;
     white-space: nowrap;
-
 }
 .inferior3 {
     font-family: var(--font-family-lato);
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 25px;
     color: black;
     white-space: nowrap;
-
 }
 .home_container4 {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 5%;
-    gap: 30px;
+    column-gap: 20px;
 }
 .home_container4_gallery {
-    height: auto;
-    width: auto;
     background-image: url(./img2/fondo_sala.png);
-    
-    display: flex;
-    background-size: 50% auto;
-    background-position: top left;
-    background-repeat: no-repeat;
+    background-image: url(./img2/sala.png); padding: 5%;
+    margin-bottom: 5%;  
 }
-.sala {
-    padding: 70px;
+.content_texto4 {
+    column-gap: 20px;
+    overflow: hidden;
 }
 .logo_simple {
     line-height: 10px;
-    margin-bottom: 5%;
     margin-top: 10%;
 }
 .home_texto4_linea1 {
     font-family: var(--font-family-lato);
     font-style: normal;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     color: orange;
+    padding: 0;
 }
 .home_texto4_linea2 {
     font-family: var(--font-family-lato);
     font-style: normal;
-    font-size: 80px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 600;
     color: black;
-    margin-bottom: 10%;
+    padding: 0;
 }
 .home_texto4_linea3 {
     font-family: var(--font-family-lato);
-    font-weight: 400;
-    font-size: 30px;
+    font-weight: 300;
+    font-size: 20px;
     margin-bottom: 10%;
     color: black;
+    text-align: justify;
+    padding: 0;
 }
 .home_texto4_boton {
     display: grid;
@@ -546,6 +540,7 @@ body {
     justify-content: center;
     align-items: center;
     justify-items: center;
+    margin-bottom: 5%;
 }
 .previo4 {
     display: flex;
