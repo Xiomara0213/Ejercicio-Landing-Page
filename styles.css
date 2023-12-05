@@ -596,6 +596,11 @@ body {
     font-weight: 300;
     color: grey;
 }
+
+.foot {
+    background-color:black;
+    overflow: hidden;
+}
 .home_container5 {
     display: grid;
     grid-template-columns: 5% 1fr 5%;
@@ -675,10 +680,6 @@ body {
     border: 1px solid orange;
     justify-self: end;
     text-transform: uppercase;
-}
-.foot {
-    background-color:black;
-    overflow: hidden;
 }
 .foot_content {
     display: grid;
