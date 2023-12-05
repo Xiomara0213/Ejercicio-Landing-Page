@@ -240,7 +240,8 @@ body {
 }
 .home_container1 {
     display: flex;
-    align-items: end;
+    align-items:start;
+    overflow: hidden;
 }
 .casa1 {
     display: flex;
@@ -363,6 +364,21 @@ body {
 }
 .home_texto2 {
     margin: 0 10%;
+}
+.home_texto2_linea1 {
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    color: orange;
+}
+.home_texto2_linea2 {
+    font-family: var(--font-family-lato);
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10%;
 }
 .home_texto2_linea3 {
     font-family: var(--font-family-lato);
@@ -498,14 +514,15 @@ body {
 }
 .home_container4 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 5%;
-    column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+    margin: auto;
 }
 .home_container4_gallery {
-    background-image: url(./img2/fondo_sala.png);
-    background-image: url(./img2/sala.png); padding: 5%;
-    margin-bottom: 5%;  
+    padding: 40px;
+    background-color: black;
+    border: 1px solid black;
+    margin: 10px;
 }
 .content_texto4 {
     column-gap: 20px;
@@ -661,6 +678,7 @@ body {
 }
 .foot {
     background-color:black;
+    overflow: hidden;
 }
 .foot_content {
     display: grid;
