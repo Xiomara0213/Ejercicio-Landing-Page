@@ -23,7 +23,7 @@
     .edificio {
         height: 150px;
     }
-    ..home_container4 {
+    .home_container4 {
         grid-template-columns: 1fr;
         height: 150px;
         overflow: hidden;
@@ -227,7 +227,4 @@
     }
 }
 
-@media (max-width: 320px) {
-    
-}
 
